@@ -1,3 +1,6 @@
+# custom files I want to avoid
+development/data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +8,9 @@ __pycache__/
 
 # C extensions
 *.so
+
+# VS code files
+.DS_Store
 
 # Distribution / packaging
 .Python
